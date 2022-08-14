@@ -1,3 +1,7 @@
+DROP DATABASE IF EXISTS SIGA;
+CREATE DATABASE SIGA;
+use SIGA;
+
 CREATE TABLE Persona(
 id bigint primary key auto_increment,
 nombre VARCHAR(45),
