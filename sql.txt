@@ -1,0 +1,10 @@
+CREATE TABLE Persona(
+id bigint primary key auto_increment,
+nombre VARCHAR(45),
+subname varchar(50),
+curp varchar(50),
+cumple varchar(50)
+); 
+
+insert into persona values(1,'Zoro','Roronoa','223ref4535','2012-12-12');
+select * from persona;
